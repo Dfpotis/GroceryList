@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseItemFragment"
+    android:background="#F9CEA9">
+
+    <Button
+        android:backgroundTint="#3A1902"
+        android:id="@+id/chestnuts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="75dp"
+        android:text="CHESTNUTS"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:backgroundTint="#4B2002"
+        android:id="@+id/walnuts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="WALNUTS"
+        app:layout_constraintEnd_toEndOf="@+id/chestnuts"
+        app:layout_constraintStart_toStartOf="@+id/chestnuts"
+        app:layout_constraintTop_toBottomOf="@+id/chestnuts"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:backgroundTint="#662D04"
+        android:id="@+id/cashews"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/walnuts"
+        app:layout_constraintStart_toStartOf="@+id/walnuts"
+        app:layout_constraintTop_toBottomOf="@+id/walnuts"
+        android:text="CASHEWS"/>
+
+    <Button
+        android:backgroundTint="#713305"
+        android:id="@+id/peanuts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/cashews"
+        app:layout_constraintStart_toStartOf="@+id/cashews"
+        app:layout_constraintTop_toBottomOf="@+id/cashews"
+        android:text="@string/peanuts"/>
+
+    <Button
+        android:backgroundTint="#7F3A06"
+        android:id="@+id/almonds"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/peanuts"
+        app:layout_constraintStart_toStartOf="@+id/peanuts"
+        app:layout_constraintTop_toBottomOf="@+id/peanuts"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="ALMONDS"/>
+
+    <Button
+        android:backgroundTint="#8C4008"
+        android:id="@+id/hazelnuts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/almonds"
+        app:layout_constraintStart_toStartOf="@+id/almonds"
+        app:layout_constraintTop_toBottomOf="@+id/almonds"
+        android:text="HAZELNUTS"/>
+
+    <Button
+        android:backgroundTint="#AB4F0B"
+        android:id="@+id/coconut"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/hazelnuts"
+        app:layout_constraintStart_toStartOf="@+id/hazelnuts"
+        app:layout_constraintTop_toBottomOf="@+id/hazelnuts"
+        android:text="COCONUTS"/>
+
+    <Button
+        android:backgroundTint="#D1620F"
+        android:id="@+id/pistachios"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/coconut"
+        app:layout_constraintStart_toStartOf="@+id/coconut"
+        app:layout_constraintTop_toBottomOf="@+id/coconut"
+        android:text="PISTACHIOS"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

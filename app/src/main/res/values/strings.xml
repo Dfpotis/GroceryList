@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GroceryList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_wegmans">Welcome To The Nut Emporium!</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="start_list">START LIST</string>
+    <string name="milk">MILK</string>
+    <string name="bananas">BANANAS</string>
+    <string name="cabbage">CABBAGE</string>
+    <string name="peanut_butter">PEANUT BUTTER</string>
+    <string name="peanuts">PEANUTS</string>
+</resources>
